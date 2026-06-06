@@ -1,0 +1,34 @@
+{
+  "modules": [
+    {
+      "name": "auth",
+      "path": "backend/src/modules/auth",
+      "routes": [
+        "GET /profile",
+        "POST /login",
+        "POST /logout"
+      ]
+    },
+    {
+      "name": "employees",
+      "path": "backend/src/modules/employees",
+      "routes": []
+    },
+    {
+      "name": "leave",
+      "path": "backend/src/modules/leave",
+      "routes": []
+    },
+    {
+      "name": "payroll",
+      "path": "backend/src/modules/payroll",
+      "routes": []
+    }
+  ],
+  "models": [
+    "Employee",
+    "LeaveRequest",
+    "Payroll",
+    "User"
+  ]
+}

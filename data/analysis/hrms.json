@@ -1,0 +1,8 @@
+{
+  "project": "hrms",
+  "frontend": "React",
+  "backend": "Express",
+  "language": "TypeScript",
+  "orm": "Prisma",
+  "bundler": "Vite"
+}
